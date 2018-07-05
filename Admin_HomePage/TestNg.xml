@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="jenkin suite" verbose="1">
+	<test name="jenkin ">
+		<classes>
+			<class name="com.project.memberprofile.MemberProfileModify" />
+           
+            
+            
+		</classes>
+		<classes>
+		 <class name="com.project.accountsModule.AccountModule"/>
+		</classes>
+		
+		<classes>
+		<class name="com.project.advertisements.AdvertisementsManage"/>
+		</classes>
+	</test>
+</suite>

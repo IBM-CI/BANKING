@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [jenkin suite]">
+  <test name="jenkin (failed)">
+    <classes>
+      <class name="com.project.advertisements.AdvertisementsManage">
+        <methods>
+          <include name="disableExpire"/>
+          <include name="browserLunch"/>
+        </methods>
+      </class> <!-- com.project.advertisements.AdvertisementsManage -->
+    </classes>
+  </test> <!-- jenkin (failed) -->
+</suite> <!-- Failed suite [jenkin suite] -->
