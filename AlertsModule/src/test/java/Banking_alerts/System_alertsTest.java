@@ -2,7 +2,8 @@ package Banking_alerts;
 
 import org.testng.annotations.Test;
 
-import login.Login;
+
+
 
 import org.testng.annotations.BeforeTest;
 
@@ -10,9 +11,10 @@ import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 
-public class System_alerts extends Login{
+public class System_alertsTest extends Login{
 
 
 

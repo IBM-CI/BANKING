@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Banking_alerts.System_alerts">
+      <class name="Banking_alerts.TestAlerts_History">
         <methods>
-          <include name="delete_sys_alerts"/>
+          <include name="mem_Profile"/>
+          <include name="mem_alerts"/>
         </methods>
-      </class> <!-- Banking_alerts.System_alerts -->
+      </class> <!-- Banking_alerts.TestAlerts_History -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
