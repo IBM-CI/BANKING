@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47091" started-at="2018-07-08T11:08:33Z" finished-at="2018-07-08T11:09:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47091" started-at="2018-07-08T11:08:33Z" finished-at="2018-07-08T11:09:20Z">
+      <class name="com.messages.MessageCategoryTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.messages.MessageCategoryTest@5d5eef3d]" name="login" duration-ms="10984" started-at="2018-07-08T16:38:33Z" finished-at="2018-07-08T16:38:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="msg_start()[pri:0, instance:com.messages.MessageCategoryTest@5d5eef3d]" name="msg_start" duration-ms="1383" started-at="2018-07-08T16:38:44Z" finished-at="2018-07-08T16:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- msg_start -->
+        <test-method status="PASS" signature="search_inbox()[pri:0, instance:com.messages.MessageCategoryTest@5d5eef3d]" name="search_inbox" duration-ms="222" started-at="2018-07-08T16:38:46Z" finished-at="2018-07-08T16:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_inbox -->
+        <test-method status="PASS" signature="sub_msg_display()[pri:0, instance:com.messages.MessageCategoryTest@5d5eef3d]" name="sub_msg_display" duration-ms="1053" started-at="2018-07-08T16:38:46Z" finished-at="2018-07-08T16:38:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub_msg_display -->
+        <test-method status="PASS" signature="reply_btn()[pri:0, instance:com.messages.MessageCategoryTest@5d5eef3d]" name="reply_btn" duration-ms="3112" started-at="2018-07-08T16:38:47Z" finished-at="2018-07-08T16:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reply_btn -->
+        <test-method status="PASS" signature="appropriate_cat_msg()[pri:0, instance:com.messages.MessageCategoryTest@5d5eef3d]" name="appropriate_cat_msg" duration-ms="933" started-at="2018-07-08T16:38:50Z" finished-at="2018-07-08T16:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appropriate_cat_msg -->
+        <test-method status="PASS" signature="select_all_btn()[pri:0, instance:com.messages.MessageCategoryTest@5d5eef3d]" name="select_all_btn" duration-ms="255" started-at="2018-07-08T16:38:51Z" finished-at="2018-07-08T16:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_all_btn -->
+        <test-method status="PASS" signature="select_none_btn()[pri:0, instance:com.messages.MessageCategoryTest@5d5eef3d]" name="select_none_btn" duration-ms="213" started-at="2018-07-08T16:38:51Z" finished-at="2018-07-08T16:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_none_btn -->
+        <test-method status="PASS" signature="sent_select()[pri:0, instance:com.messages.MessageCategoryTest@5d5eef3d]" name="sent_select" duration-ms="924" started-at="2018-07-08T16:38:51Z" finished-at="2018-07-08T16:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sent_select -->
+        <test-method status="PASS" signature="trash_select()[pri:0, instance:com.messages.MessageCategoryTest@5d5eef3d]" name="trash_select" duration-ms="859" started-at="2018-07-08T16:38:52Z" finished-at="2018-07-08T16:38:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trash_select -->
+        <test-method status="PASS" signature="new_msg()[pri:0, instance:com.messages.MessageCategoryTest@5d5eef3d]" name="new_msg" duration-ms="6041" started-at="2018-07-08T16:38:53Z" finished-at="2018-07-08T16:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- new_msg -->
+        <test-method status="PASS" signature="grp_check()[pri:0, instance:com.messages.MessageCategoryTest@5d5eef3d]" name="grp_check" duration-ms="8727" started-at="2018-07-08T16:38:59Z" finished-at="2018-07-08T16:39:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grp_check -->
+        <test-method status="PASS" signature="validation()[pri:0, instance:com.messages.MessageCategoryTest@5d5eef3d]" name="validation" duration-ms="392" started-at="2018-07-08T16:39:08Z" finished-at="2018-07-08T16:39:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method status="PASS" signature="messageCategoryValidation()[pri:0, instance:com.messages.MessageCategoryTest@5d5eef3d]" name="messageCategoryValidation" duration-ms="2282" started-at="2018-07-08T16:39:08Z" finished-at="2018-07-08T16:39:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageCategoryValidation -->
+        <test-method status="PASS" signature="defaultValuesValidation()[pri:0, instance:com.messages.MessageCategoryTest@5d5eef3d]" name="defaultValuesValidation" duration-ms="209" started-at="2018-07-08T16:39:11Z" finished-at="2018-07-08T16:39:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultValuesValidation -->
+        <test-method status="PASS" signature="insertCategory()[pri:0, instance:com.messages.MessageCategoryTest@5d5eef3d]" name="insertCategory" duration-ms="3020" started-at="2018-07-08T16:39:11Z" finished-at="2018-07-08T16:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertCategory -->
+        <test-method status="PASS" signature="modifyCategory()[pri:0, instance:com.messages.MessageCategoryTest@5d5eef3d]" name="modifyCategory" duration-ms="3627" started-at="2018-07-08T16:39:14Z" finished-at="2018-07-08T16:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyCategory -->
+        <test-method status="PASS" signature="deleteCategory()[pri:0, instance:com.messages.MessageCategoryTest@5d5eef3d]" name="deleteCategory" duration-ms="2808" started-at="2018-07-08T16:39:17Z" finished-at="2018-07-08T16:39:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCategory -->
+      </class> <!-- com.messages.MessageCategoryTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
