@@ -12,7 +12,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 
-public class Settingsaccess1_Test extends SettingsAlert1_Test {
+public class Settingsaccess1 extends SettingsAlert1 {
 	int i,j;
 
 	@Test(alwaysRun=true,priority=13)

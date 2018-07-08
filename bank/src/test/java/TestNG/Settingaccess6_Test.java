@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 import static org.testng.Assert.assertEquals;
 
 
-public class Settingaccess6 extends Settingaccess3 {
+public class Settingaccess6_Test extends Settingaccess3 {
 	
 @Test(alwaysRun=true,priority=20)
 

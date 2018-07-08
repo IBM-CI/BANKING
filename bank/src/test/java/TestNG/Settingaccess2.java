@@ -6,7 +6,7 @@ import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.By;
 
-public class Settingaccess2_Test extends Settingsaccess1_Test {
+public class Settingaccess2 extends Settingsaccess1 {
 
 	//WebDriver d;
 	@Test(alwaysRun=true,priority=16)
@@ -37,10 +37,9 @@ public class Settingaccess2_Test extends Settingsaccess1_Test {
 		{
 			System.out.println("successful time out");
 		}
-        
+
 		System.out.println(" session is expired :admin");
-         
-		Thread.sleep(1000);
+
 
 
 		d.findElement(By.id("cyclosUsername")).sendKeys("admin");

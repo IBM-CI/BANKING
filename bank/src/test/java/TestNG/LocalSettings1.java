@@ -15,7 +15,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class LocalSettings1_Test {
+public class LocalSettings1 {
 	int i,j=0;
 	public WebDriver d;
 
