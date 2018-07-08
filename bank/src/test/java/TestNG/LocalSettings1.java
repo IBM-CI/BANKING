@@ -22,7 +22,6 @@ public class LocalSettings1 {
 	@Test(priority=1)
 
 	public void f() throws InterruptedException {
-
 		d.findElement(By.id("menu9")).click();
 		//local settings
 
