@@ -15,7 +15,7 @@ import org.openqa.selenium.By;
 //import org.openqa.selenium.interactions.Actions;
 import java.lang.Thread;
 
-public class SettingsAlert1 extends LocalSettings1 {
+public class SettingsAlert1_Test extends LocalSettings1_Test {
 	int i,j,x,k;
 //WebDriver d;
 	@Test(alwaysRun=true,priority=11)
