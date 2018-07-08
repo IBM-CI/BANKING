@@ -24,7 +24,6 @@ public class LocalSettings1 {
 	public void f() throws InterruptedException {
 
 		d.findElement(By.id("menu9")).click();
-
 		//local settings
 
 		d.findElement(By.id("submenu9.0")).click();
