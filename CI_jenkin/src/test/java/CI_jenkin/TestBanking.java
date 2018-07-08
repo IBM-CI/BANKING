@@ -4,23 +4,25 @@ import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+//import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 
-public class Banking {
-
-	WebDriver driver=new FirefoxDriver();
-	String oldPassword="@1234";
-	String newPassword="@1234";
-	String confirmPassword="@1234";
+public class TestBanking {
+	WebDriver driver = new FirefoxDriver();
+	String oldPassword="1234";
+	String newPassword="1234";
+	String confirmPassword="1234";
 	String email_id="s@gmail.in";
-	// driver.get("http://localhost:8585/do/");
-	//driver.manage().window().maximize();
+
+	
+	
 	@Test(priority=1,alwaysRun=true)
 	public void login() {
-
+		
+		
 		//WebDriver driver=new FirefoxDriver();
 		driver.get("http://localhost:8585/do/");
 		driver.manage().window().maximize();
@@ -28,7 +30,7 @@ public class Banking {
 		driver.findElement(By.name("password")).sendKeys(oldPassword);
 		driver.findElement(By.className("button")).click();
 	}
-	@Test(priority=2)
+	@Test(priority=2,alwaysRun=true)
 	public void ValidateAdminLoginName()
 	{
 
@@ -46,7 +48,7 @@ public class Banking {
 	}
 
 
-	@Test(priority=3)
+	@Test(priority=3,alwaysRun=true)
 	public void ChangeButtonValidation()
 	{
 		String b1=driver.findElement(By.id("modifyButton")).getAttribute("value");
@@ -65,7 +67,7 @@ public class Banking {
 	} 
 
 
-	@Test(priority=4)
+	@Test(priority=4,alwaysRun=true)
 	public void AdminNameEmailValidate()
 	{
 		driver.findElement(By.id("modifyButton")).click();//To click on change button
@@ -81,7 +83,7 @@ public class Banking {
 	  aseertEquals(actualValue,1); */
 	}
 
-	@Test(priority=5)
+	@Test(priority=5,alwaysRun=true)
 	public void FullNameValidate()
 	{
 
@@ -96,7 +98,7 @@ public class Banking {
 	}
 
 
-	@Test(priority=6)
+	@Test(priority=6,alwaysRun=true)
 	public void emailValidate()
 	{
 		driver.findElement(By.name("admin(email)")).clear();
@@ -109,7 +111,7 @@ public class Banking {
 		assertEquals(emailVerify, true,"Invalid email format ");
 	} 
 
-	@Test(priority=7)
+	@Test(priority=7,alwaysRun=true)
 	public void submitValidate()
 	{
 		driver.findElement(By.id("saveButton")).click(); //To click on submit button
@@ -124,7 +126,7 @@ public class Banking {
 	}
 
 
-	@Test(priority=8)
+	@Test(priority=8,alwaysRun=true)
 	public void oldPasswordvalidate()
 	{
 		//change password option
@@ -137,14 +139,14 @@ public class Banking {
 
 
 
-		String currentPassword="@1234";
+		String currentPassword="1234";
 		driver.findElement(By.name("oldPassword")).sendKeys(currentPassword); //old password
 		assertEquals(currentPassword,oldPassword,"Cuurent password does not match");
 		System.out.println("Current password is valid");
 	}
 
 
-	@Test(priority=9)
+	@Test(priority=9,alwaysRun=true)
 	public void newPassword()
 	{
 		driver.findElement(By.name("newPassword")).sendKeys(newPassword);  //new password
@@ -160,7 +162,7 @@ public class Banking {
 	}
 
 
-	@Test(priority=10)
+	@Test(priority=10,alwaysRun=true)
 	public void confirmPasswordValidate()
 	{
 
@@ -177,7 +179,7 @@ public class Banking {
 
 
 
-	@Test(priority=11)
+	@Test(priority=11,alwaysRun=true)
 	public void passwordSubmitValidate()
 	{
 		driver.findElement(By.className("button")).click(); //Password change submit button
